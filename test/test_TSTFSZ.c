@@ -1,6 +1,6 @@
 #include "unity.h"
-#include "TSTFSZ.h"
 #include "Bytecode.h"
+#include "TSTFSZ.h"
 #include <stdio.h>
 #include "CException.h"
 

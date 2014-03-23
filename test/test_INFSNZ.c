@@ -1,6 +1,6 @@
 #include "unity.h"
-#include "INFSNZ.h"
 #include "Bytecode.h"
+#include "INFSNZ.h"
 #include <stdio.h>
 #include "CException.h"
 

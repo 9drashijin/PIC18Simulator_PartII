@@ -1,5 +1,5 @@
-#ifndef CPFSEQ_H
-#define CPFSEQ_H
+#ifndef _CPFSEQ_H_
+#define _CPFSEQ_H_
 
 #define 	WREG 	0xFE8
 #define		BSR 	0xFE0
