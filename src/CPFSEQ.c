@@ -28,7 +28,7 @@ void cpfseq(Bytecode *code){
 			if(code->operand1 < 0x80){FSR[BSR] = 0x00;}
 			else if(code->operand1 >= 0x80){FSR[BSR] = 0x0F;}
 			FSR[code->operand1 + (FSR[BSR]*256)]; ///(FSR[BSR]*256) same as shift << 8 bit to left, 2^8 is 256.
-			}
+		}
 	}
 	
 }
